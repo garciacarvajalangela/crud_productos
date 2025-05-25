@@ -1,0 +1,6 @@
+projectKey=productos
+serverUrl=http://localhost:9000
+serverVersion=25.5.0.107428
+dashboardUrl=http://localhost:9000/dashboard?id=productos
+ceTaskId=b509728c-9d60-4a7a-878e-05bcf3f9bc8e
+ceTaskUrl=http://localhost:9000/api/ce/task?id=b509728c-9d60-4a7a-878e-05bcf3f9bc8e
