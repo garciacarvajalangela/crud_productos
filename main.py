@@ -26,9 +26,9 @@ def leer_producto(product_id):
 
 def actualizar_producto(product_id, nuevos_datos):
     productos = cargar_productos()
-    for i, p in enumerate(productos):
-        if p["id"] == product_id:
-            productos[i].update(nuevos_datos)
+    for producto in productos:
+        if producto["id"] == product_id:
+            producto.update(nuevos_datos)
             guardar_productos(productos)
             return
     raise ValueError("Producto no encontrado")
@@ -39,4 +39,3 @@ def eliminar_producto(product_id):
     if len(nuevos) == len(productos):
         raise ValueError("Producto no encontrado")
     guardar_productos(nuevos)
-
