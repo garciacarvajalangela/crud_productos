@@ -39,3 +39,4 @@ def eliminar_producto(product_id):
     if len(nuevos) == len(productos):
         raise ValueError("Producto no encontrado")
     guardar_productos(nuevos)
+
